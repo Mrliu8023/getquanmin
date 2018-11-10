@@ -1,6 +1,6 @@
 # Python3爬取全民k歌
-
-##1.通过歌曲主页链接爬取
+环境 python3.5 + requests
+## 1.通过歌曲主页链接爬取
 首先打开歌曲主页，打开开发者工具（F12）。
 选择Network,点击播放，会发现有一个请求返回的资源是媒体类型，点击查看这个请求，发现是歌曲的链接地址，请求为get请求。
 ![Aaron Swartz](https://raw.githubusercontent.com/Mrliu8023/getquanmin/master/image/01.png)
@@ -9,7 +9,7 @@
 ![Aaron Swartz](https://raw.githubusercontent.com/Mrliu8023/getquanmin/master/image/02.png)
 
 
-##2.通过用户主页爬取
+## 2.通过用户主页爬取
 
 首先我们观察用户首页，发现每次加载是8首歌曲，点击查看更多时地址栏并没有变化，可以判断歌单信息通过Ajax请求。
 
